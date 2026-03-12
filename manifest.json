@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "UNPAM Kuesioner Auto Filler",
+  "version": "1.0",
+  "description": "Otomatis memilih 'Ya' pada kuesioner LMS UNPAM",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.unpam.ac.id/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
