@@ -36,10 +36,4 @@ const fillKuesioner = () => {
   });
 };
 
-
-
-## Authors
-
-- [@wilypradana](https://www.github.com/wilypradana)
-
-Kontributor: WILY PRADANA
+```
